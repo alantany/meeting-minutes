@@ -5,7 +5,7 @@ use tauri_plugin_store::StoreExt;
 use log::{info as log_info, error as log_error, debug as log_debug, warn as log_warn};
 
 // Hardcoded server URL
-const APP_SERVER_URL: &str = "http://localhost:5167";
+const APP_SERVER_URL: &str = "http://localhost:8080";
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ApiResponse<T> {
